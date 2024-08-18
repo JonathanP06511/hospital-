@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  login-user:
+   build: ../login-user
+   ports:
+     - 4004
+
+  
