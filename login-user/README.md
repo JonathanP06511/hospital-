@@ -41,7 +41,24 @@ This project is a Information API built with Node.js and Express. It uses Swagge
 
 ## Routes
 
-- `GET /apilogin`: Endpoint for login (see `src/Login/apilogin.js` for details).
+- `GET /apilogin`: Endpoint for login (see `src/index.js` for details).
+
+## Docker
+
+To run this project in a Docker container:
+
+1. Build the Docker image:
+    ```bash
+    docker build -t login-user .
+    ```
+
+2. Run the Docker container:
+    ```bash
+    docker run -p 4004:4004 login-user
+    ```
+
+3. The API will be available at `http://localhost:4004` inside the Docker container.
+
 
 ## Documentation with Swagger
 

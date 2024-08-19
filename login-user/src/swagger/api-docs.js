@@ -1,6 +1,6 @@
 /**
  * @openapi
- * /authenticate/{mail}/{password}:
+ * /apilogin/{mail}/{password}:
  *   get:
  *     summary: Authenticates a user by encrypted email and password
  *     parameters:
